@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<employee>
+
+
+	<employee eid="100">
+		<firstName>Himani</firstName>
+		<lastName>Chaudhari</lastName>
+		<marks>80</marks>
+	</employee>
+	
+	<employee eid="101">
+		<firstName>Ajay</firstName>
+		<lastName>Jadhav</lastName>
+		<marks>60</marks>
+	</employee>
+	
+	<employee eid="102">
+		<firstName>Pooja</firstName>
+		<lastName>Sharma</lastName>
+		<marks>65</marks>
+	</employee>
+
+
+</employee>

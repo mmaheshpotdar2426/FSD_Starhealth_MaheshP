@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  setter method injection  -->
+  
+  <bean id="a1"  class="com.star.demo.springd.Teacher" scope="singleton">
+  
+  <property name="tname" value="Mrs. Jadhav"></property>
+  
+  
+  </bean>
+    
+<bean  id="stud1"  class="com.star.demo.springd.Student"  scope="prototype">
+  
+  
+  	<property name="sid" value="100"></property>
+   	<property name="sname" value="himani"></property>
+  	<property name="teacher"  ref="t1" ></property>
+  	<property name="subjects">
+  		<list>
+  				<value>c</value>
+  				<value>Cpp</value>
+  				<value>Java</value>
+  			
+  			</list>
+  	
+  	</property>
+  	</bean>
+  	
+  <bean id="stud2" class="com.star.demo.springd.Student">
+  
+	  <constructor-arg   name="sid" value="201" ></constructor-arg>
+	  <constructor-arg   name="sname" value="Ajay" ></constructor-arg>
+  
+  </bean>
+  
+   <!-- 
+<bean  id="stud4"  class="com.star.demo.springd.Student">
+   
+  <property name="sid" value="102"></property>
+   <property name="sname" value="Avinash"></property>
+   
+  </bean>
+  
+<bean  id="stud3"  class="com.star.demo.springd.Student">
+ 
+  <property name="sid" value="103"></property>
+   <property name="sname" value="Pooja"></property>
+  
+  </bean>
+   -->
+</beans>

@@ -1,0 +1,8 @@
+com\starhealth\spring\repo\BooksDaoImp.class
+com\starhealth\spring\beans\Books.class
+com\starhealth\spring\service\BooksServiceImp.class
+com\starhealth\spring\service\IBooksService.class
+com\starhealth\spring\ui\Client.class
+com\starhealth\spring\repo\DBUtil.class
+com\starhealth\spring\ui\MyConfig.class
+com\starhealth\spring\repo\IBooksDAO.class
